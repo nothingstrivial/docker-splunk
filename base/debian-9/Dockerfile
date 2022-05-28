@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM debian:stretch-slim
+FROM debian:stretch-slim@sha256:b57dec331d7fa856af213f861750bbdec85736741d8b81ef72769cfd344739e5
 LABEL maintainer="support@splunk.com"
 
 ARG SCLOUD_URL
