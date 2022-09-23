@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM debian:buster-slim
+FROM debian:buster-slim@sha256:7cd178f900adf3fe5659861895c9690750df784ca96839fa756c379af645747d
 LABEL maintainer="support@splunk.com"
 
 ARG SCLOUD_URL
